@@ -17,7 +17,7 @@ public class Fighter {
         // savunabildi mi savunamadı mı?
 
         if(foe.isDodge()){
-            System.out.println(foe.name+" vurdu "+ this.name +" nın canı degismesi CUNKU");
+            System.out.println(foe.name+" vurdu "+ this.name +" nın canı degismedi CUNKU");
             System.out.println(this.name+" savundu");
             System.out.println("===========");
             return foe.health;
@@ -31,7 +31,7 @@ public class Fighter {
         System.out.println("===========");
         return a;
     }
-    boolean isDodge(){ // t ise defans yapabildi. // digeri vursun altına defans yaptı densin ama canı azalmasın amin
+    boolean isDodge(){ // t ise defans yapabildi.
         double randomNumber = Math.random() * 100;
         if(randomNumber<=this.dodge){
             return true;
