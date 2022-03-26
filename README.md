@@ -1,2 +1,2 @@
-# Java101Codes
-Eğitimini takip etmekte olduğum https://www.patika.dev in ödevlerini paylaşıyorum.
+# JavaCodes
+I share here my JAVA codes.
